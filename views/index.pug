@@ -1,0 +1,10 @@
+doctype html
+html
+  head
+    title Language Switcher
+  body
+    h1= t('welcome_message')
+    form(action='/switch-lang/en', method='get')
+      button(type='submit') English
+    form(action='/switch-lang/my', method='get')
+      button(type='submit') Myanmar
